@@ -27,10 +27,12 @@ LIMITATIONS
 BUILD
 -----
 To build DO-nmap, simply issue "make" 
+
 	shell# make
 	gcc -Wall -Werror   -c donmap.c
 	gcc -Wall -Werror   -c donmap_worker.c
 	gcc -Wall -Werror   donmap.o donmap_worker.o -lpthread -o donmap
+	
 
 You will need pthread library and GNU gcc to build DO-nmap.
 
