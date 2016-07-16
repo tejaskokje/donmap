@@ -70,16 +70,19 @@ EXAMPLES:
 
 To scan www.google.com from TCP ports 20 to 100 with timeout value of 40 milliseconds
 using 4 threads in parallel, use following command
+
          donmap -w 40 -f 20 -l 100 -p 4 -t www.google.com
          
 
 To scan 192.168.0.0/16 for all TCP ports with output only displaying numeric ports use
 following command
+
          donmap -s 192.168.0.0/16 -n
          
 
 To scan www.facebook.com for TCP ports 20 to 4096 with IPv6 address and timeout value of
 100 milliseoonds, use following command
+
          donmap -6 -t www.facebook.com -f 20 -l 4096 -w 100
         
 LICENSE
