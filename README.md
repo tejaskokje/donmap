@@ -7,7 +7,6 @@ DO-nmap can scan TCP ports on a given hostname/IP address.
 AUTHOR
 ------
 Tejas Kokje
-tejas.kokje@gmail.com
 
 FEATURES
 --------
