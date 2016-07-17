@@ -41,6 +41,7 @@ After build is successful, you should have a 'donmap' binary in current working 
 USAGE
 -----
 Usage: donmap [options]
+
 OPTIONS:
 
          -? : Print this help string.
